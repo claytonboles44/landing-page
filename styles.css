@@ -4,10 +4,16 @@ body {
     flex-direction: column;
 }
 
+section {
+    padding: 0% 20%;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
+    background-color: #1F2937;
     
 
 }
@@ -19,10 +25,59 @@ body {
 
 .header-right {
     display: flex;
-
+    gap: 16px;
+    
 }
 
 .header-logo {
     font-size: 16px;
 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.section-1 {
+    display: flex;
+    background-color: #1F2937
+}
+
+.left {
+    
+}
+
+.title {
+    font-size: 24px;
+    color: white;
+}
+
+.description {
+    color: white;
+    font-size: 12px;
+}
+
+.title-image {
+    height: auto;
+    width: 50%;
+}
+
+.section-2-header {
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+}
+
+.box-container {
+    display: flex;
+}
+
+.box-img {
+    height: auto;
+    width: 90%;
+}
+
+.box-subtext {
+    font-size: 12px;
 }
